@@ -1,0 +1,71 @@
+
+body {
+    background-image: url(./img/back1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    background: #ffffff83;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.logo img {
+    width: 200px;
+}
+h1 {
+    color: #10476e;
+    margin-bottom: 25px;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.button i {
+    margin-right: 8px;
+    font-size: 20px;
+}
+.button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.facebook {
+    background-color: #3b5998;
+}
+.whatsapp {
+    background-color: #25d366;
+}
+.tiktok {
+    background-color: #000000;
+}
+.instagram {
+    background-color: #c13584;
+}
