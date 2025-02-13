@@ -28,30 +28,33 @@ body {
     height: auto;
     object-fit: cover;
     border-radius: 15px;
-    box-shadow: 0 4px 6px rgb(59, 59, 59);
+    box-shadow: 0 4px 6px rgb(0, 0, 0);
 }
 
 .contact-button {
+    position: fixed;
+    top: 0;
     display: inline-block;
     padding: 10px 30px;
-    margin-top: 20px;
     margin-bottom: 20px;
-    width: 50%;
-    font-size: 18px;
+    width: 95%;
+    font-size: 14px;
     color: white;
     font-family: "Almarai", serif;
     font-weight: bolder;
-    background-color: #1c73cb; /* Green color */
+    background-color: #303030; /* Green color */
     text-align: center;
     text-decoration: none;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 10px 1px rgb(0 0 0);
     transition: background-color 0.3s ease;
+    text-shadow: 0 0 10px #ffd700
 }
 
 .contact-button:hover {
     background-color: #45a049;
 }
+
 
 @media (max-width: 768px) {
     .gallery {
@@ -65,7 +68,7 @@ body {
 
     }
     .contact-button {
-        width: 70%;
+        width: 100%;
     }
 
 }
